@@ -1,0 +1,24 @@
+@font-face {
+    font-family: mifuente;
+    src: url("../fonts/ZenDots-Regular.ttf");
+}
+@font-face {
+    font-family: mifuente2;
+    src: url(../fonts/OrelegaOne-Regular.ttf);
+}
+
+
+h1,a{
+    font-family: mifuente;
+}
+
+h2,h3{
+    font-family: mifuente2;
+}
+
+
+body{
+  background: #bbbbbb;
+    
+    
+}

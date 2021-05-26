@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #e6e6e6;
+}
+
+header .cabeceraimg ,section{
+    background: #e6e6e6;
+    width: 100%;
+    max-width: 1400px;
+    margin: 20px auto;
+}
+footer{
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto; 
+}
+
+header nav {
+    background: #528fd5;
+    overflow: hidden;
+
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    float: left;
+}
+
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+
+}
+header nav ul li a:hover{
+    background-color: #1c3653;
+}
+
+section,nav, a{
+    float: left;
+    background: rgb(88, 223, 233);
+}
+
+
+
+.comen{
+    width: 28.5%;
+    margin-right:1.5% ;
+    float: left;
+    clear: both;
+}
+.video{
+    width: 65%;
+    margin-right:1.5% ;
+    float: left;
+       
+}
+
+footer{
+    background: #000;
+    color: rgb(251, 253, 253);
+    clear: both;
+    padding: 10px 0px;
+    text-align: center;
+}

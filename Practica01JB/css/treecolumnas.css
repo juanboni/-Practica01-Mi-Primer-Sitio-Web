@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #e6e6e6;
+}
+
+header .cabeceraimg ,section, footer{
+    background: #e6e6e6;
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+header nav {
+    background: #528fd5;
+    overflow: hidden;
+
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    float: left;
+}
+
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+
+}
+header nav ul li a:hover{
+    background-color: #1c3653;
+}
+/*article {
+    width: 50%;
+    float: left;
+    background: #1c3653;
+}*/
+.main  ,section, article{
+    width: 68.5%;
+    margin-right:1.5% ;
+    float: left;
+   
+}
+
+
+
+
+
+.main  ,section , article{
+    padding: 20px;
+    background: #f0e8e0;
+    margin-bottom: 20px;
+}
+
+
+section , article{
+    padding: 30px;
+    background: #ff8000;
+    margin-bottom: 20px;
+}
+
+.asidem {
+    width: 24%;
+    background-color: rgb(249, 253, 252);
+    float: lef;  
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+footer{
+    background: #000;
+    color: #fff;
+    clear: both;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+
+
+
+ .cabecera{
+    background: #e44110;
+    overflow: hidden;
+}
+
+
+
+.cabecera  ul{
+    list-style: none;
+}
+
+
+.cabecera  ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+
+}
+.cabecera  ul li a:hover{
+    background-color: #1c3653;
+}
